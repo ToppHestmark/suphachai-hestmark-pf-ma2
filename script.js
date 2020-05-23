@@ -33,6 +33,9 @@ for (i = 0; i < catArray.length; i++) {
 }
 
 // 9. Create a function called logToConsole. The function should accept 1 argument. Decide on the name of the argument and console log its value inside the function.
-
+function logToConsole(name) {
+  console.log(name);
+}
 
 // 10. Call the logToConsole function and pass in the value "donkey".
+logToConsole("donkey");
